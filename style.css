@@ -472,3 +472,87 @@ footer p {
     text-align: center ;
 
 }
+
+/* css page of logine */
+
+main {
+    background: linear-gradient( 135deg , #ED4690 ,#B639A6 , #5522CC );
+    height: 100vh;
+    position: relative;
+}
+
+ .section-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 350PX;
+    background-color: #D9D9D9;
+    border-radius: 23px;
+    transform: translate(-50% , -50%);
+    padding: 50px;
+    justify-items: center;
+}
+
+.section-login h1
+,.section-login p
+,.section-login form {
+    margin-bottom: 30px;
+}
+
+.section-login h1 {
+    color: #7A348C;
+}
+
+.section-login p {
+    color: #868686;
+}
+
+.form-logine-page {
+    display: flex;
+    flex-direction : column ;
+    width: 50%;
+}
+
+.form-logine-page input {
+    padding: 15PX 10PX;
+    border: 1px solid #6638D1 ;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+.form-logine-page a {
+    display: flex;
+    justify-content: flex-end;
+    color: #868686;
+    margin-bottom: 30px;
+
+}
+
+.form-logine-page button {
+    padding: 15px 10px;
+    width:  50%;
+    align-self: center;
+    border-radius : 15px ;
+    outline: none;
+    border: none;
+    background-color: #B191FC;
+    color: #FFFFFF ;
+}
+
+.form-logine-page label {
+    padding-left: 15px;
+    color: #7347DB;
+}
+
+/* signup css */
+
+
+.section-sign-in {  
+    height: 500PX;
+}
+
+.section-sign-in button {
+    margin-top: 30px;
+}
