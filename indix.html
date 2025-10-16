@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Festava</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
       <nav>
         <div class="nav-content">
           <div class="nav-header">
-            <img src="img/logo.png" alt="logo" class="logo-img" />
+            <img src="img/logo.png" alt="logo" class="logo-img">
             <ul class="pages">
               <li>
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">Events</a>
+                <a href="event.html">Events</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="blog.html">Blog</a>
               </li>
               <li>
                 <a href="#" class="login-button">Login</a>
@@ -54,18 +54,27 @@
         </div>
         <div class="place-search-box">
           <div class="search-box">
-            <div>
-              <p>Search Event</p>
-              <p>Konser Jazz</p>
+            <div class="serch-container">
+              <label for="event-recherch">Search Event</label>
+              <input type="text" id="event-recherch" placeholder="Konser Jazz" class="cherche-ecent-name">
             </div>
-            <div>
-              <p>Place</p>
-              <p>Indonesia</p>
+            <div class="serch-container">
+              <label for="place-recherche">Place</label>
+              <select name="votre-chois" id="place-recherche" class="select-date">
+                <option value="indonesia">Indonesia</option>
+                <option value="usa">usa</option>
+                <option value="vitnam">vitnam</option>
+                <option value="marocco">marocco</option>
+                <option value="saudi">saudi</option>
+              </select>
             </div>
             <div class="serch-container">
               <label for="time-event">Time</label>
               <select name="votre-chois" id="time-event" class="select-date">
                 <option value="Anydate">Any date</option>
+                <option value="morning">morning</option>
+                <option value="midle-of-day">midle of day</option>
+                <option value="the night">the night</option>
               </select>
             </div>
           </div>
@@ -306,7 +315,7 @@
             </div>
           </div>
 
-          
+
             <hr>
             <p>Copyright © 2025 Avi Yansah</p>
          
